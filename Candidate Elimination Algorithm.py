@@ -37,6 +37,7 @@ def learn(concepts, target):
     
     return specific_h, general_h
 
+
 s_final, g_final = learn(concepts, target)
 print("Final Specific_h:", s_final, sep="\n")
 print("Final General_h:", g_final, sep="\n")
