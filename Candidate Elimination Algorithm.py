@@ -34,6 +34,7 @@ def learn(concepts, target):
     indices = [i for i, val in enumerate(general_h) if val == ['?' for _ in range(len(specific_h))]]
     for i in indices:
         general_h.remove(['?' for _ in range(len(specific_h))])
+
     
     return specific_h, general_h
 
