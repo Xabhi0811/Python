@@ -16,7 +16,6 @@ comment = f"# Auto-generated comment at {datetime.datetime.now()} - {random.rand
 with open(script_filename, "r") as file:
     lines = file.readlines()
 
-# Insert the new comment after the first line (to avoid syntax errors)
 lines.insert(1, comment)
 
 # Write the updated content back to the script
