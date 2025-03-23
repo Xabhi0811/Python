@@ -12,7 +12,7 @@ script_filename = __file__
 
 comment = f"# Auto-generated comment at {datetime.datetime.now()} - {random.randint(1000, 9999)}\n"
 
-# Read the current script content
+
 with open(script_filename, "r") as file:
     lines = file.readlines()
 
