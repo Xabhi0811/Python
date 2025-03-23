@@ -22,7 +22,7 @@ lines.insert(1, comment)
 with open(script_filename, "w") as file:
     file.writelines(lines)
 
-# Git commands to add, commit, and push changes
+
 commit_message = f"Auto-updated script at {datetime.datetime.now()}"
 os.system("git add auto_commit.py")
 os.system(f'git commit -m "{commit_message}"')
