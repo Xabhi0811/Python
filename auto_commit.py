@@ -7,7 +7,7 @@ import os
 import datetime
 import random
 
-# Get the script filename
+
 script_filename = __file__
 
 # Generate a random comment
