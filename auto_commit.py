@@ -1,5 +1,4 @@
 import os
-
 import datetime
 import random
 script_filename = __file__
