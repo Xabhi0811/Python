@@ -14,7 +14,7 @@ with open(script_filename, "r") as file:
 
 lines.insert(1, comment)
 
-# Write the updated content back to the script
+
 with open(script_filename, "w") as file:
     file.writelines(lines)
 
