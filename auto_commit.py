@@ -20,5 +20,4 @@ commit_message = f"Auto-updated script at {datetime.datetime.now()}"
 os.system("git add auto_commit.py")
 os.system(f'git commit -m "{commit_message}"')
 os.system("git push origin main")  
-
 print("Script updated and pushed to GitHub!") 
