@@ -12,7 +12,6 @@ with open(script_filename, "r") as file:
 lines.insert(1, comment)
 
 
-
 with open(script_filename, "w") as file:
     file.writelines(lines)
 
