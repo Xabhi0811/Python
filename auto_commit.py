@@ -7,7 +7,7 @@ comment = f"# Auto-generated comment at {datetime.datetime.now()} - {random.rand
 
 with open(script_filename, "r") as file:
     lines = file.readlines()
-
+4
 lines.insert(1, comment)
 
 with open(script_filename, "w") as file:
