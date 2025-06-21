@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 
+
 data = pd.DataFrame(data=pd.read_csv('enjoysport.csv'))
 concepts = np.array(data.iloc[:, 0:-1])
 print(concepts)
